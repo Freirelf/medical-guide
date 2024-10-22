@@ -2,7 +2,6 @@ import { Button } from '@/components/ui/button';
 import { Doctors } from '@/constants';
 import { getAppointments } from '@/lib/actions/appointment.actions';
 import { formatDateTime } from '@/lib/utils';
-import { get } from 'http';
 import Image from 'next/image'
 import Link from 'next/link'
 
